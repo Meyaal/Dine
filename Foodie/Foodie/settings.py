@@ -14,17 +14,21 @@ from pathlib import Path
 import os
 import dj_database_url
 from django.contrib.messages import constants as messages
+from dotenv import load_dotenv
+load_dotenv()
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-8+bdqkemp8-*48czks9stt78pjpw5)ff%_qaj(m5)kuq7wm)l&'
+SECRET_KEY = 'your-secret-key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -50,6 +54,8 @@ CLOUDINARY_STORAGE = {
      'CLOUDINARY_URL': os.environ.get('CLOUDINARY_URL')
 }
 
+ACCOUNT_EMAIL_VERIFICATION = 'none'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -65,7 +71,7 @@ ROOT_URLCONF = 'Foodie.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATES_DIR],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
