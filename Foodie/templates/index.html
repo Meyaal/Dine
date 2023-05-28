@@ -1,0 +1,494 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+  <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1>Welcome to <span>FireHouse</span></h1>
+        <h2>Delivering great food for more than 18 years!</h2>
+
+        <div class="btns">
+          <a href="{% url 'home' %}#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
+          <a href="{% url 'booking_page' %}" class="btn-book animated fadeInUp scrollto">Book a Table</a>
+        </div>
+      </div>
+      <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in"
+        data-aos-delay="200">
+        <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+      </div>
+
+    </div>
+  </div>
+</section><!-- End Hero -->
+
+<!-- ======= Menu Section ======= -->
+<section id="menu" class="menu section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Menu</h2>
+      <p>Check Our Tasty Menu</p>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="menu-flters">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-starters">Starters</li>
+          <li data-filter=".filter-salads">Salads</li>
+          <li data-filter=".filter-specialty">Specialty</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img src="{% static 'img/menu/lobster-bisque.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Lobster Bisque</a><span>$5.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Fresh lobster with our homemade creamy sauce with lemon and garlic.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img src="{% static 'img/menu/bread-barrel.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Bread Barrel</a><span>$6.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Delicious baked bread straight from our bakery.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img src="{% static 'img/menu/cake.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Crab Cake</a><span>$7.95</span>
+        </div>
+        <div class="menu-ingredients">
+          A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-salads">
+        <img src="{% static 'img/menu/caesar.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Caesar Selections</a><span>$8.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Our classic Caesar salad.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img src="{% static 'img/menu/tuscan-grilled.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Tuscan Grilled</a><span>$9.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img src="{% static 'img/menu/mozzarella.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Mozzarella Stick</a><span>$4.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Marvellous mozzarella sticks with hot sauce.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-salads">
+        <img src="{% static 'img/menu/greek-salad.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Greek Salad</a><span>$9.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Fresh spinach, crisp romaine, tomatoes, and Greek olives
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-salads">
+        <img src="{% static 'img/menu/spinach-salad.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Spinach Salad</a><span>$9.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img src="{% static 'img/menu/lobster-roll.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Lobster Roll</a><span>$12.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Menu Section -->
+
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row">
+      <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+        <div class="about-img">
+          <img src="{% static 'img/about.jpg' %}" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+        <h3>FireHouse is a stone's throw away from iconic New York City landmark.</h3>
+        <p class="fst-italic">
+          Combining the vibrant energy of New York City with an authentic classic setting in Midtown.
+        </p>
+        <ul>
+          <li><i class="bi bi-check-circle"></i> The 130-seat dining room and upper level private dining room offer a
+            chic and elegant backdrop for an unforgettable dining experience.</li>
+          <li><i class="bi bi-check-circle"></i> FireHouse's impressively high ceilings, mahogany wood walls, and dark
+            leather tufted banquets create a rich yet inviting atmosphere.</li>
+          <li><i class="bi bi-check-circle"></i> Behind the grand wooden door entrance, is an oak wood bar followed by a
+            corridor lined with oversized circular banquettes.</li>
+        </ul>
+        <p>
+          We're proud to have received Trip Advisor's 2020 "Travelers' Choice Best of the Best Award" ranked amongst the
+          top 10% around the world, as well as Wine Spectator's Award of Excellence for offering a more extensive wine
+          selections with significant vintage depth and excellent breadth across multiple regions.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+
+
+<!-- ======= Testimonials Section ======= -->
+<section id="testimonials" class="testimonials section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Testimonials</h2>
+      <p>What they're saying about us</p>
+    </div>
+
+    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Friendly people very clean great atmosphere the food and drinks were very delicious My favorite was the
+              lobster and shrimp and course the drinks
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="{% static 'img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Definitely book. It's busy all night. Everything feels a bit special even before you step inside and once
+              you do the music, lighting and mood are all great.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="{% static 'img/testimonials/testimonials-2.jpg' %}" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Best restaurant we have eaten at for a number of years. I simply cannot wait to go back to New York so we
+              can eat there again!!
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="{% static 'img/testimonials/testimonials-3.jpg' %}" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Absolutely recommend to a couple for family. Really a very nice place.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="{% static 'img/testimonials/testimonials-4.jpg' %}" class="testimonial-img" alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Great environment! You can feel the New York tradition in this restaurant ! Servise is great, cooking
+              excellent as it should be! At the end the best cheesecake ever!
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="{% static 'img/testimonials/testimonials-5.jpg' %}" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section><!-- End Testimonials Section -->
+
+<!-- ======= Gallery Section ======= -->
+<section id="gallery" class="gallery">
+
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Gallery</h2>
+      <p>Some photos from Our Restaurant</p>
+    </div>
+  </div>
+
+  <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row g-0">
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'img/gallery/gallery-1.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'img/gallery/gallery-1.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'img/gallery/gallery-2.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'img/gallery/gallery-2.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'img/gallery/gallery-3.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'img/gallery/gallery-3.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'img/gallery/gallery-4.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'img/gallery/gallery-4.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'img/gallery/gallery-5.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'img/gallery/gallery-5.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href=" {% static 'img/gallery/gallery-6.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'img/gallery/gallery-6.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'img/gallery/gallery-7.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'img/gallery/gallery-7.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'img/gallery/gallery-8.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'img/gallery/gallery-8.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Gallery Section -->
+
+<!-- ======= Chefs Section ======= -->
+<section id="chefs" class="chefs">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Chefs</h2>
+      <p>Our Proffesional Chefs</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+          <img src="{% static 'img/chefs/chefs-1.jpg' %}" class="img-fluid" alt="">
+          <div class="member-info">
+            <div class="member-info-content">
+              <h4>Walter White</h4>
+              <span>Master Chef</span>
+            </div>
+            <div class="social">
+              <a href="http://www.twitter.com" target="_blank" rel="noopener"
+                aria-label="Join our Twitterpage (opens in a new tab)" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="http://www.facebook.com" target="_blank" rel="noopener"
+                aria-label="Join our Facebookpage (opens in a new tab)" class="facebook"><i
+                  class="bi bi-facebook"></i></a>
+              <a href="http://www.instagram.com" target="_blank" rel="noopener"
+                aria-label="Join our Instagrampage (opens in a new tab)" class="instagram"><i
+                  class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="member" data-aos="zoom-in" data-aos-delay="200">
+          <img src="{% static 'img/chefs/chefs-2.jpg' %}" class="img-fluid" alt="">
+          <div class="member-info">
+            <div class="member-info-content">
+              <h4>Sarah Jhonson</h4>
+              <span>Patissier</span>
+            </div>
+            <div class="social">
+              <a href="http://www.twitter.com" target="_blank" rel="noopener"
+                aria-label="Join our Twitterpage (opens in a new tab)" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="http://www.facebook.com" target="_blank" rel="noopener"
+                aria-label="Join our Facebookpage (opens in a new tab)" class="facebook"><i
+                  class="bi bi-facebook"></i></a>
+              <a href="http://www.instagram.com" target="_blank" rel="noopener"
+                aria-label="Join our Instagrampage (opens in a new tab)" class="instagram"><i
+                  class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="member" data-aos="zoom-in" data-aos-delay="300">
+          <img src="{% static 'img/chefs/chefs-3.jpg' %}" class="img-fluid" alt="">
+          <div class="member-info">
+            <div class="member-info-content">
+              <h4>William Anderson</h4>
+              <span>Cook</span>
+            </div>
+            <div class="social">
+              <a href="http://www.twitter.com" target="_blank" rel="noopener"
+                aria-label="Join our Twitterpage (opens in a new tab)" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="http://www.facebook.com" target="_blank" rel="noopener"
+                aria-label="Join our Facebookpage (opens in a new tab)" class="facebook"><i
+                  class="bi bi-facebook"></i></a>
+              <a href="http://www.instagram.com" target="_blank" rel="noopener"
+                aria-label="Join our Instagrampage (opens in a new tab)" class="instagram"><i
+                  class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Chefs Section -->
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Contact</h2>
+      <p>Contact Us</p>
+    </div>
+  </div>
+
+  <div class="container" data-aos="fade-up">
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location:</h4>
+            <p>A108 Adam Street, New York, NY 535022</p>
+          </div>
+        </div>
+
+        <div class="info">
+          <div class="open-hours">
+            <i class="bi bi-clock"></i>
+            <h4>Open Hours:</h4>
+            <p>
+              Monday-Saturday:<br>
+              11:00 AM - 2300 PM
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-6">
+
+        <div class="info">
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>info@example.com</p>
+          </div>
+        </div>
+
+        <div class="info">
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Call:</h4>
+            <p>+1 5589 55488 55s</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</section><!-- End Contact Section -->
+
+{% endblock %}

@@ -48,6 +48,9 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'cloudinary',
     'menu',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
 ]
 
 CLOUDINARY_STORAGE = {
@@ -55,6 +58,9 @@ CLOUDINARY_STORAGE = {
 }
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
