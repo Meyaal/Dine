@@ -1,10 +1,164 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome to MenuMaster
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+##### This is the fourth project under the Code Institute Diploma in Software Development (E-commerce Applications) program. This website is a fictional webbsite called MenuMaster. It is designed to be responsive and accessible on a variety of devices for the ease of use of the site by potential costumers.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+
+##### The webbsite is created for a restaurant i Stockholm City called MenuMaster. The website is for customers that are looking for a nice and place to eat and hang out at while in Stockholm City. The restaurant has delicious meals and a magical atmosphere. The website has gott an account registration and booking functionality to offer customers to manage their reservations directly through the website.
+
+
+### UX (User Experience)
+
+User stories
+
+*First time visitor goals*
+
+As a first time visitor, I want:
+* to easily understand the main purpose of the site.
+* to be able to easily navigate throughout the site.
+* to be able to find information about how to make a reservation at the restaurant.
+* to be able to reserve a day and time for a visit, view booking details and make changes to created bookings and delete my bookings.
+* to be able to log out of my user account.
+
+*Returning and frequent visitor goals*
+
+As a returning user, I want:
+
+* to sign in to my user account.
+* to make a table booking.
+* to view my booking details.
+* to edit my booking details or delete them.
+* to sign out of my account to keep my account safe.
+
+*Site Administrator goals* 
+
+As a Site Administrator I would like to be able to create, view, edit and delete booking data.
+
+## Agile tools
+
+The GitHub Projects section was used as a Kanban board for the development of this project, which made it possible to break down the project execution into subtasks and make it easier to complete and track project progress. User stories were used to break down the project into sub-tasks and placed on the Kanban board to work on them and track progress. In addition, labels were used to further define the priority of each user story in the Kanban board.
+
+## Design and Site structure
+
+##### The theme of the restaurans is meant to be a luxury, cozy and exclusive enviroment. With its dark, inviting colors and intimate atmosphere, it provides the perfect setting for a memorable dining experience. Impeccable service and a menu created by talented chefs guarantee a fusion of exquisite flavors that will leave a lasting impression.
+
+*Colors*
+
+The website features an elegant black color scheme, creating a sophisticated atmosphere. Gold accents, such as buttons, icons, and headings, add a touch of luxury and enhance the premier look and feel of the webpage.
+
+*Fonts* 
+
+ The fonts in the theme are clear and modern and contribute perfectly to the overall elegant setting.
+
+ *Images* 
+
+ The images in the theme provide great content and presentation of the restaurant and serves as an enticement for the visitors.
+
+ ## Features 
+
+*NAVBAR*
+
+* The navbar prominently displays all the available sections for the user to explore, ensuring effortless navigation throughout the site. It serves as a convenient and efficient tool for users to access different areas of the website with ease.
+
+* To enhance usability, the link for making a booking is specially emphasized by enlarging its size. This intentional design choice ensures that the booking feature stands out and is easily discoverable, providing users with a straightforward and hassle-free experience.
+
+*HERO*
+
+* The hero section of the website creates a captivating first impression, showcasing the restaurant to visitors. It includes important links such as the menu and reservation options, as well as a presentation video to further market the restaurant.
+
+*MENU*
+
+* The menu section showcases a variety of options available at the restaurant, complete with enticing images and descriptions. It offers a convenient filtering functionality that allows users to sort options based on their preferred type of meal. This feature enhances the user experience, making it easy to explore and select from the diverse range of menu items.
+
+*ABOUT*
+
+* The about section of the website incorporates elements of the restaurant's design and ambiance, emphasizing its unique selling points. This section showcases the distinct aesthetic and atmosphere of the establishment, providing visitors with a glimpse into the captivating settings that set it apart. By highlighting these aspects, the about section further enhances the restaurant's appeal and reinforces its unique identity.
+
+*Testimonials*
+
+* The testimonials section features feedback from previous customers, offering social proof to boost customer conversion on the webpage. These testimonials showcase the experiences and opinions of satisfied patrons, building trust and credibility for the restaurant. By highlighting positive reviews, this section effectively influences potential customers, assuring them of the restaurant's quality and encouraging them to choose it with confidence.
+
+*GALLARY* 
+
+* The gallery section allows visitors to view stunning images showcasing the interior and overall ambiance of the restaurant. It provides a visual glimpse of the captivating aesthetics, giving potential customers a glimpse of what to expect and enticing them to visit and experience the restaurant for themselves.
+
+*CONTACT*
+
+* The contact section includes all the necessary information about the restaurant that the visitor may need to know about.
+
+**ACCOUNT SINGUP/LOGIN*
+
+* The account pages offer users the ability to create a new account for registration purposes and also provide a login option for existing users. These dedicated pages ensure a seamless user experience by allowing individuals to easily create their account and securely access their personal information. By offering this functionality, the website simplifies the registration and login process, enabling users to conveniently manage their reservations and access personalized features.
+
+*BOOKING PAGE*
+
+* In the booking page the customer can make a reservation using the form and save it. It will then show up in the customer's mybooking page.
+
+*MYBOOKINGS*
+
+The mybooking page displays the customer's current bookings, providing a comprehensive overview of each reservation, including date and time details. This allows customers to easily track and manage their bookings in one place. The page also offers the convenience of making updates to a booking by clicking the "change" button. Any modifications made will be saved and reflected on the mybooking page. Additionally, customers have the option to delete a booking by clicking the "delete" button, removing it from the list of reservations. This functionality ensures flexibility and control for customers, allowing them to easily manage their bookings according to their needs.
+
+*DELETE BOOKING*
+
+* When a customer clicks on the "delete" button in the mybookings page, a warning message is displayed to prevent accidental deletion of bookings. This precautionary message ensures that customers are aware of the action they are about to take, reducing the likelihood of mistakenly deleting their reservations. By providing this warning, the system helps customers make informed decisions and avoids any unintended loss of important booking information.
+
+*FOOTER*
+
+* The footer section of the website conveniently houses essential information about the restaurant, ensuring easy access to relevant contact details and social media links. This persistent component remains visible on all pages, allowing users to quickly locate important information regardless of their current location on the website. By placing key contact information and social media links in the footer, the website promotes seamless navigation and engagement, enabling visitors to easily connect with the restaurant through various channels.
+
+Future Features??
+
+## Technologies Used
+
+*Languages*
+
+* Python
+* JavaScript
+* HTML5
+* CSS3
+
+## Frameworks, Libraries, Programs
+
+*Python Built-in Modules:*
+* os
+
+*External Packages*
+
+* cloudinary
+* dj-database-url
+* dj3-cloudinary-storage
+* Django: python framework used to create all the backend
+
+* django-allauth
+* gunicorn
+* psycopg2
+
+## Programs & Tools
+
+* [Google Fonts](https://fonts.google.com/)
+* [Bootstrap](https://bootstrapmade.com/)
+* [Gitpod](https://www.gitpod.io/)
+* [Github](https://github.com/)
+
+## Testing 
+
+## Deployment
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Gitpod Reminders
 
