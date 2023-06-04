@@ -33,7 +33,7 @@ SECRET_KEY = 'your-secret-key'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", '8000-meyaal-dine-6n67yiqlfma.ws-eu98.gitpod.io']
 
 
 # Application definition
