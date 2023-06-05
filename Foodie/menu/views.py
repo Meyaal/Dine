@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .forms import Bookingform
 from .models import Booking
 from django.contrib import messages
@@ -35,8 +35,28 @@ def mybookings_page(request):
     else:
         return render("../accounts/login")
 
-def edit_booking(request):
-    return render(request, 'edit_booking.html')
+def edit_booking(request, booking_id):
+    booking = get_object_or_404(Booking, id=booking_id)
+    if request.user != booking.user:
+        return redirect('mybookings_page')
+    if request.method == 'POST':
+        form = Bookingform(request.POST, instance=booking)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "booking uppdated")
+            return redirect('mybookings_page')
+    form = Bookingform(instance=booking)
+    context = {
+        "form" : form
+    }
+    return render(request, 'edit_booking.html', context)
 
-def delete_booking(request):
+def delete_booking(request, booking_id):
+    booking = get_object_or_404(Booking, id=booking_id)
+    if request.user != booking.user:
+        return redirect('mybookings_page')
+    booking.delete()
+    messages.success(request, "booking deleted")
     return redirect('mybookings_page')
+
+
