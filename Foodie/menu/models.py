@@ -2,6 +2,8 @@ from django.db import models
 from django.contrib.auth.models import User
 
 # Create your models here.
+
+# options for how many guests in the booking
 GEUST = (
     ('1', '1'),
     ('2', '2'),
@@ -9,6 +11,8 @@ GEUST = (
     ('4', '4'),
     ('5', '5'),
 )
+
+# options for the time of the booking
 
 TIMES = (
     ('10:00', '10:00'),
