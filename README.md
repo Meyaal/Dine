@@ -5,7 +5,7 @@ Welcome to MenuMaster
 ##### This is the fourth project under the Code Institute Diploma in Software Development (E-commerce Applications) program. This website is a fictional webbsite called MenuMaster. It is designed to be responsive and accessible on a variety of devices for the ease of use of the site by potential costumers.
 
 
-##### The webbsite is created for a restaurant i Stockholm City called MenuMaster. The website is for customers that are looking for a nice and place to eat and hang out at while in Stockholm City. The restaurant has delicious meals and a magical atmosphere. The website has gott an account registration and booking functionality to offer customers to manage their reservations directly through the website.
+##### The website, MenuMaster, is designed for a restaurant located in Stockholm City. It caters to customers who are seeking a delightful dining experience and a place to relax in Stockholm City. The restaurant offers a delectable menu with a touch of magic in its atmosphere. The website provides account registration and booking functionality, allowing customers to conveniently manage their reservations directly through the website.
 
 
 ### UX (User Experience)

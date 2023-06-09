@@ -1,1 +1,1 @@
-web: gunicorn menumaster23.wsgi
+web: gunicorn Foodie.wsgi
