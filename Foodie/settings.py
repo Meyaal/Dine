@@ -31,7 +31,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["localhost", 'menumaster23.herokuapp.com', '8000-meyaal-dine-6n67yiqlfma.ws-eu99.gitpod.io']
 
@@ -44,8 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
     'cloudinary_storage',
+    'django.contrib.staticfiles',
     'cloudinary',
     'menu',
     'allauth',
