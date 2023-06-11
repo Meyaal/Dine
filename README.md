@@ -249,7 +249,7 @@ Media
 
 * The video in the project comes from the [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/)
 
-Acknowledgements
+## Acknowledgements
 
 The Code Institute Slack community.
 

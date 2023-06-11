@@ -36,9 +36,7 @@ def booking_page(request):
             messages.error(
                 request, "information missed or invalid or dubble booking")
     form = Bookingform()
-    context = {
-        "form" : form
-    }
+    context = {"form": form}
     return render(request, "booking.html", context)
 
 
@@ -49,9 +47,7 @@ def mybookings_page(request):
     """
     if request.user.is_authenticated:
         bookings = Booking.objects.filter(user=request.user)
-        context = {
-            "bookings" : bookings
-        }
+        context = {"bookings": bookings}
         return render(request, "mybookings.html", context)
     else:
         return render("../accounts/login")
@@ -76,9 +72,7 @@ def edit_booking(request, booking_id):
             messages.success(request, "booking uppdated")
             return redirect('mybookings_page')
     form = Bookingform(instance=booking)
-    context = {
-        "form" : form
-    }
+    context = {"form": form}
     return render(request, 'edit_booking.html', context)
 
 

@@ -33,9 +33,9 @@ class Booking(models.Model):
     guests = models.CharField(max_length=2, choices=GEUST, default='2')
     time = models.CharField(max_length=30, choices=TIMES, default='10:00')
     date = models.DateField()
+
     def __str__(self):
         return self.namn
-
 
 
 
