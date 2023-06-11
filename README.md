@@ -143,7 +143,8 @@ The website features an elegant black color scheme, creating a sophisticated atm
 
 * The footer section of the website conveniently houses essential information about the restaurant, ensuring easy access to relevant contact details and social media links. This persistent component remains visible on all pages, allowing users to quickly locate important information regardless of their current location on the website. By placing key contact information and social media links in the footer, the website promotes seamless navigation and engagement, enabling visitors to easily connect with the restaurant through various channels.
 
-Future Features??
+![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2008.19.51.png)
+
 
 ## Technologies Used
 
