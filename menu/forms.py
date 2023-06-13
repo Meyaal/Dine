@@ -18,7 +18,8 @@ class Bookingform(forms.ModelForm):
         )
     phone = forms.IntegerField(
         required=False,
-        widget=forms.TextInput(attrs={"placeholder": "+ 123456789"})
+        widget=forms.TextInput(attrs={"placeholder": "+ 123456789"}),
+        help_text="This field is optional.",
         )
 
     class Meta:
