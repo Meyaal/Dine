@@ -16,7 +16,7 @@ class Bookingform(forms.ModelForm):
     email = forms.EmailField(
         widget=forms.TextInput(attrs={"placeholder": "namn@exempel.com"})
         )
-    phone = forms.IntegerField(
+    phone = forms.CharField(
         required=False,
         widget=forms.TextInput(attrs={"placeholder": "+ 123456789"}),
         help_text="This field is optional.",
