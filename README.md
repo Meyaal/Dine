@@ -236,7 +236,7 @@ was used to provide examples of Bootstrap functionality and building blocks.
 
 [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website) This toturial was helpful to understand the concept af django as a framework.
 
-[Github](https://github.com/ErikHgm/FireHouse-Restaurant-Project) I found similar project in github which i have used some codes and inspiration to build my own.
+[Github](https://github.com/ErikHgm/MenuMaster-Restaurant-Project) I found similar project in github which i have used some codes and inspiration to build my own.
 
 Content
 
