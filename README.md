@@ -68,43 +68,43 @@ The website features an elegant black color scheme, creating a sophisticated atm
 
 
 
-*HERO*
+*Landing page*
 
 * The hero section of the website creates a captivating first impression, showcasing the restaurant to visitors. It includes important links such as the menu and reservation options, as well as a presentation video to further market the restaurant.
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2008.45.05.png)
+![](docs/landing.png)
 
 
 *MENU*
 
 * The menu section showcases a variety of options available at the restaurant, complete with enticing images and descriptions. It offers a convenient filtering functionality that allows users to sort options based on their preferred type of meal. This feature enhances the user experience, making it easy to explore and select from the diverse range of menu items.
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2008.11.10.png)
+![](docs/menu.png)
 
 *ABOUT*
 
 * The about section of the website incorporates elements of the restaurant's design and ambiance, emphasizing its unique selling points. This section showcases the distinct aesthetic and atmosphere of the establishment, providing visitors with a glimpse into the captivating settings that set it apart. By highlighting these aspects, the about section further enhances the restaurant's appeal and reinforces its unique identity.
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2008.12.43.png)
+![](docs/png)
 
 *Testimonials*
 
 * The testimonials section features feedback from previous customers, offering social proof to boost customer conversion on the webpage. These testimonials showcase the experiences and opinions of satisfied patrons, building trust and credibility for the restaurant. By highlighting positive reviews, this section effectively influences potential customers, assuring them of the restaurant's quality and encouraging them to choose it with confidence.
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2008.13.26.png)
+![](docs/testimonils.png)
 
 *GALLARY* 
 
 * The gallery section allows visitors to view stunning images showcasing the interior and overall ambiance of the restaurant. It provides a visual glimpse of the captivating aesthetics, giving potential customers a glimpse of what to expect and enticing them to visit and experience the restaurant for themselves.
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2008.14.31.png)
+![](docs/restaurant-interior.png)
 
 
 *CONTACT*
 
 * The contact section includes all the necessary information about the restaurant that the visitor may need to know about.
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2008.14.52.png)
+![](docs/info.png)
 
 
 **ACCOUNT SINGUP/LOGIN*
@@ -113,16 +113,16 @@ The website features an elegant black color scheme, creating a sophisticated atm
 
 
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2008.15.24.png)
+![](docs/sign-up.png)
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2009.06.06.png)
+![](docs/login.png)
 
 
 *BOOKING PAGE*
 
 * In the booking page the customer can make a reservation using the form and save it. It will then show up in the customer's mybooking page.
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2009.08.58.png)
+![](docs/makebooking.png)
 
 
 *MYBOOKINGS*
@@ -130,13 +130,13 @@ The website features an elegant black color scheme, creating a sophisticated atm
 * The mybooking page displays the customer's current bookings, providing a comprehensive overview of each reservation, including date and time details. This allows customers to easily track and manage their bookings in one place. The page also offers the convenience of making updates to a booking by clicking the "change" button. Any modifications made will be saved and reflected on the mybooking page. Additionally, customers have the option to delete a booking by clicking the "delete" button, removing it from the list of reservations. This functionality ensures flexibility and control for customers, allowing them to easily manage their bookings according to their needs.
 
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2009.02.24.png)
+![]()
 
 *DELETE BOOKING*
 
 * When a customer clicks on the "delete" button in the mybookings page, a warning message is displayed to prevent accidental deletion of bookings. This precautionary message ensures that customers are aware of the action they are about to take, reducing the likelihood of mistakenly deleting their reservations. By providing this warning, the system helps customers make informed decisions and avoids any unintended loss of important booking information.
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2008.19.21.png)
+![](docs/remove.png)
 
 
 *FOOTER*
