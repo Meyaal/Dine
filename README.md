@@ -130,7 +130,7 @@ The website features an elegant black color scheme, creating a sophisticated atm
 * The mybooking page displays the customer's current bookings, providing a comprehensive overview of each reservation, including date and time details. This allows customers to easily track and manage their bookings in one place. The page also offers the convenience of making updates to a booking by clicking the "change" button. Any modifications made will be saved and reflected on the mybooking page. Additionally, customers have the option to delete a booking by clicking the "delete" button, removing it from the list of reservations. This functionality ensures flexibility and control for customers, allowing them to easily manage their bookings according to their needs.
 
 
-![]()
+![](docs/manage.png)
 
 *DELETE BOOKING*
 
@@ -143,7 +143,7 @@ The website features an elegant black color scheme, creating a sophisticated atm
 
 * The footer section of the website conveniently houses essential information about the restaurant, ensuring easy access to relevant contact details and social media links. This persistent component remains visible on all pages, allowing users to quickly locate important information regardless of their current location on the website. By placing key contact information and social media links in the footer, the website promotes seamless navigation and engagement, enabling visitors to easily connect with the restaurant through various channels.
 
-![](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2008.19.51.png)
+![](docs/socialmedia.png)
 
 
 ## Technologies Used
@@ -241,11 +241,11 @@ was used to provide examples of Bootstrap functionality and building blocks.
 Content
 
 * The texts that are used for testimonials comes from [Tripadvisor](https://www.tripadvisor.se/)
-* The texts that are used for the about section comes from [Royal35](https://royal35steakhouse.com/) webbsite.
+* The texts that are used for the about section comes from [Github](https://github.com/ErikHgm/FireHouse-Restaurant-Project).
 
 Media
 
-* The images in the project comes from the [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/)
+* The images in the project comes from the [Restaurantly Boostrap theme](https://getbootstrap.com/)
 
 * The video in the project comes from the [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/)
 
