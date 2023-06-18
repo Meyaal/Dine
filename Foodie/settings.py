@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["localhost", 'menumaster23.herokuapp.com', '8000-meyaal-dine-6n67yiqlfma.ws-eu99.gitpod.io']
+ALLOWED_HOSTS = ["localhost", 'MenuMaster23.herokuapp.com', '8000-meyaal-dine-6n67yiqlfma.ws-eu99.gitpod.io']
 
 
 # Application definition
