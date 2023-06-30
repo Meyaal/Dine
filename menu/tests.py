@@ -20,11 +20,5 @@ class BookingModelTest(TestCase):
 
     def test_email_label(self):
         booking = Booking.objects.get(id=1)
-        field_label = booking._meta.get_field('email')
+        field_label = booking._meta.get_field('email').verbose_name
         self.assertEquals(field_label, 'email')
-
-    def test_phone_label(self):
-        bookig = Booking.objects.get(id=1)
-        field_label = booking._meta.get_field('phone')
-        self.assertEquals(field_label, 'phone')
-

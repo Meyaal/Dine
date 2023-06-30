@@ -11,14 +11,17 @@ class Dateform(forms.DateInput):
 
 class Bookingform(forms.ModelForm):
     namn = forms.CharField(
-        widget=forms.TextInput(attrs={"placeholder": "namn"})
+        widget=forms.TextInput(attrs={"placeholder": "namn"}),
+        help_text="*",
         )
     email = forms.EmailField(
-        widget=forms.TextInput(attrs={"placeholder": "namn@exempel.com"})
+        required=True, 
+        widget=forms.TextInput(attrs={"placeholder": "namn@exempel.com"}),
+        help_text="*",
         )
     phone = forms.CharField(
         required=False,
-        widget=forms.TextInput(attrs={"placeholder": "+ 123456789"}),
+        widget=forms.TextInput(attrs={"placeholder": "+46701234567"}),
         help_text="This field is optional.",
         )
 
