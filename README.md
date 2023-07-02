@@ -1,11 +1,11 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome to MenuMaster
+Welcome to Menumaster
 
-##### This is the fourth project under the Code Institute Diploma in Software Development (E-commerce Applications) program. This website is a fictional webbsite called MenuMaster. It is designed to be responsive and accessible on a variety of devices for the ease of use of the site by potential costumers.
+##### This is the fourth project under the Code Institute Diploma in Software Development (E-commerce Applications) program. This website is a fictional webbsite called Menumaster. It is designed to be responsive and accessible on a variety of devices for the ease of use of the site by potential costumers.
 
 
-##### The website, MenuMaster, is designed for a restaurant located in Stockholm City. It caters to customers who are seeking a delightful dining experience and a place to relax in Stockholm City. The restaurant offers a delectable menu with a touch of magic in its atmosphere. The website provides account registration and booking functionality, allowing customers to conveniently manage their reservations directly through the website.
+##### The website, Menumaster, is designed for a restaurant located in Stockholm City. It caters to customers who are seeking a delightful dining experience and a place to relax in Stockholm City. The restaurant offers a delectable menu with a touch of magic in its atmosphere. The website provides account registration and booking functionality, allowing customers to conveniently manage their reservations directly through the website.
 
 
 ### UX (User Experience)
@@ -185,6 +185,26 @@ Was used for all storing and backup of the code pertaining to the project.
 
 ## Testing 
 
+The site was constantly tested during the process of creating the site in the Gitpod Environment and the deployed site on Heroku was also tested in terms of user experience. The available functionality and user experience is shown in the table below.
+
+| Goals/actions  | As a guest | As a logged user  | Result | Comment |
+|--|:--:|:--:|:--:|--|
+| I can use menu and navigating through pages | &check; | &check; | Pass | Click on menu item redirects to appropriate page |
+| I can see the home page | &check; | &check; | Pass | |
+| I can see the Services page | &check; |&check;  |  Pass| |
+| I can see the Sign Up page | &check; |&check;  |  Pass| |
+| I can see the Login page  | &check; |&check;  |  Pass| |
+| I can see the Logout page  | &check; |&check;  |  Pass| |
+| I can click the Book a table button  | &check; |&check;  |  Pass| Redirects to the page with a message that the user must register or log in for guest or shows up form for authorized user |
+| I can see the Booknow page | &cross; | &check;  | Pass |A page is displayed with a message that the user must register or log in  |
+| I can fill fields in the form the make a booking page | &cross; | &check;  | Pass |This page and form are available only to authorized users |
+| I can see the Bookings page   | &cross; | &check;  | Pass | This page is available only to an authorized users|
+| I can see the Mangae your booking page  | &cross;  | &check;  | Pass | This page is available only to authorized users|
+| I can edit booking in the form on the Change booking page  | &cross;  | &check;  | Pass |This page is available only to authorized users ||
+| I can see the Delete booking page  |  &cross; | &check;  |Pass  | This page is available only to authorized users |
+| |
+
+
 
 
 
@@ -236,7 +256,7 @@ was used to provide examples of Bootstrap functionality and building blocks.
 
 [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website) This toturial was helpful to understand the concept af django as a framework.
 
-[Github](https://github.com/ErikHgm/MenuMaster-Restaurant-Project) I found similar project in github which i have used some codes and inspiration to build my own.
+[Github](https://github.com/ErikHgm/Menumaster-Restaurant-Project) I found similar project in github which i have used some codes and inspiration to build my own.
 
 Content
 
