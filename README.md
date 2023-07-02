@@ -197,11 +197,11 @@ The site was constantly tested during the process of creating the site in the Gi
 | I can see the Logout page  | &check; |&check;  |  Pass| |
 | I can click the Book a table button  | &check; |&check;  |  Pass| Redirects to the page with a message that the user must register or log in for guest or shows up form for authorized user |
 | I can see the Booknow page | &cross; | &check;  | Pass |A page is displayed with a message that the user must register or log in  |
-| I can fill fields in the form the make a booking page | &cross; | &check;  | Pass |This page and form are available only to authorized users |
-| I can see the Bookings page   | &cross; | &check;  | Pass | This page is available only to an authorized users|
-| I can see the Mangae your booking page  | &cross;  | &check;  | Pass | This page is available only to authorized users|
-| I can edit booking in the form on the Change booking page  | &cross;  | &check;  | Pass |This page is available only to authorized users ||
-| I can see the Delete booking page  |  &cross; | &check;  |Pass  | This page is available only to authorized users |
+| I can fill fields in the form make your booking page | &cross; | &check;  | Pass |This page and form are available only to authorized users |
+| I can see the Make your Booking | &cross; | &check;  | Pass | This page is available only to an authorized users|
+| I can see the mangae your booking | &cross;  | &check;  | Pass | This page is available only to authorized users|
+| I can edit booking in the form manage your booking and where it shows bottom for change, when I clic the change buttom it takes me to a new form Edit your booking | &cross;  | &check;  | Pass |This page is available only to authorized users ||
+| I can see the Delete booking buttom in the form manage your booking, when I click on it I can se a confirm message if I wanto to delete booking  |  &cross; | &check;  |Pass  | This page is available only to authorized users |
 | |
 
 
