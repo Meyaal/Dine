@@ -7,6 +7,34 @@ Welcome to Menumaster
 
 ##### The website, Menumaster, is designed for a restaurant located in Stockholm City. It caters to customers who are seeking a delightful dining experience and a place to relax in Stockholm City. The restaurant offers a delectable menu with a touch of magic in its atmosphere. The website provides account registration and booking functionality, allowing customers to conveniently manage their reservations directly through the website.
 
+## Wireframe for deskop
+
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.10.02.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.10.43.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.10.58.png)
+![](docs/screenshot.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.11.27.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.11.38.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.11.53.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.12.02.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.12.10.png)
+
+## Wireframe for mobile
+
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.36.48.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.36.57.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.51.57.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.37.16.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.37.25.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.37.33.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.37.44.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.37.54.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.38.01.png)
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.38.09.png)
+
+## Database Schema
+- The database design schema can be viewed below. It consists of a Booking model with a foreignKey of User that relates to the Django standard User model class.
+![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.35.38.png)
 
 ### UX (User Experience)
 
@@ -181,6 +209,11 @@ Was used to create the front-end design.
 Gitpod was used as IDE to commit and push the project to GitHub
 * [Github](https://github.com/)
 Was used for all storing and backup of the code pertaining to the project.
+* [Figma](https://www.figma.com/)
+Was used for create wireframes for deskop and mobile screen.
+* [LucidChart](https://www.lucidchart.com/)
+Was used for create database schema.
+
 
 
 ## Testing 
@@ -190,19 +223,28 @@ The site was constantly tested during the process of creating the site in the Gi
 | Goals/actions  | As a guest | As a logged user  | Result | Comment |
 |--|:--:|:--:|:--:|--|
 | I can use menu and navigating through pages | &check; | &check; | Pass | Click on menu item redirects to appropriate page |
-| I can see the home page | &check; | &check; | Pass | |
-| I can see the Services page | &check; |&check;  |  Pass| |
+| I can see the Home page | &check; | &check; | Pass | |
+| I can see the Menu page | &check; |&check;  |  Pass| |
 | I can see the Sign Up page | &check; |&check;  |  Pass| |
 | I can see the Login page  | &check; |&check;  |  Pass| |
 | I can see the Logout page  | &check; |&check;  |  Pass| |
 | I can click the Book a table button  | &check; |&check;  |  Pass| Redirects to the page with a message that the user must register or log in for guest or shows up form for authorized user |
-| I can see the Booknow page | &cross; | &check;  | Pass |A page is displayed with a message that the user must register or log in  |
+| I can see the Book a table page | &cross; | &check;  | Pass |A page is displayed with a message that the user must register or log in  |
 | I can fill fields in the form make your booking page | &cross; | &check;  | Pass |This page and form are available only to authorized users |
 | I can see the Make your Booking | &cross; | &check;  | Pass | This page is available only to an authorized users|
 | I can see the mangae your booking | &cross;  | &check;  | Pass | This page is available only to authorized users|
 | I can edit booking in the form manage your booking and where it shows bottom for change, when I clic the change buttom it takes me to a new form Edit your booking | &cross;  | &check;  | Pass |This page is available only to authorized users ||
 | I can see the Delete booking buttom in the form manage your booking, when I click on it I can se a confirm message if I wanto to delete booking  |  &cross; | &check;  |Pass  | This page is available only to authorized users |
 | |
+
+## Browsers Tested
+Testing has been carried out on the following browsers:
+
+- Google Chrome
+- Firefox
+- Microsoft Edge
+
+
 
 
 

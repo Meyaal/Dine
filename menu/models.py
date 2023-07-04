@@ -11,6 +11,12 @@ GEUST = (
     ('4', '4'),
     ('5', '5'),
     ('6', '6'),
+    ('7', '7'),
+    ('8', '8'),
+    ('9', '9'),
+    ('10', '10'),
+    ('11', '11'),
+    ('12', '12'),
 )
 
 # options for the time of the booking
@@ -45,11 +51,3 @@ class Booking(models.Model):
 
     def __str__(self):
         return self.namn
-
-
-
-
-
-
-    
-
