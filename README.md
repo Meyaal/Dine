@@ -260,8 +260,6 @@ The W3C Markup Validator, W3C CSS Validator Services were used to validate codes
 
 
 
-
-
 ## Deployment
 
 The project was developed using Gitpod, the project code is stored on GitHub, and then deployed to Heroku.
