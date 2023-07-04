@@ -2,6 +2,9 @@
 
 Welcome to Menumaster
 
+![alt text](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2015.06.48.png)
+
+
 ##### This is the fourth project under the Code Institute Diploma in Software Development (E-commerce Applications) program. This website is a fictional webbsite called Menumaster. It is designed to be responsive and accessible on a variety of devices for the ease of use of the site by potential costumers.
 
 
@@ -89,9 +92,8 @@ The website features an elegant black color scheme, creating a sophisticated atm
 
 * The navbar prominently displays all the available sections for the user to explore, ensuring effortless navigation throughout the site. It serves as a convenient and efficient tool for users to access different areas of the website with ease.
 
-
-
 * To enhance usability, the link for making a booking is specially emphasized by enlarging its size. This intentional design choice ensures that the booking feature stands out and is easily discoverable, providing users with a straightforward and hassle-free experience.
+
 ![](docs/navbar.png)
 
 
@@ -113,7 +115,7 @@ The website features an elegant black color scheme, creating a sophisticated atm
 
 * The about section of the website incorporates elements of the restaurant's design and ambiance, emphasizing its unique selling points. This section showcases the distinct aesthetic and atmosphere of the establishment, providing visitors with a glimpse into the captivating settings that set it apart. By highlighting these aspects, the about section further enhances the restaurant's appeal and reinforces its unique identity.
 
-![](docs/png)
+![](docs/about.png)
 
 *Testimonials*
 
@@ -212,13 +214,18 @@ Was used for all storing and backup of the code pertaining to the project.
 * [Figma](https://www.figma.com/)
 Was used for create wireframes for deskop and mobile screen.
 * [LucidChart](https://www.lucidchart.com/)
-Was used for create database schema.
+Was used to create database schema.
 
 
 
 ## Testing 
 
-The site was constantly tested during the process of creating the site in the Gitpod Environment and the deployed site on Heroku was also tested in terms of user experience. The available functionality and user experience is shown in the table below.
+### Automated testing
+- I've tested some forms but I'm not that used to automated testing yet. I wanted to experiment a bit.
+
+### Manual testing
+
+- The site was constantly tested during the process of creating the site in the Gitpod Environment and the deployed site on Heroku was also tested in terms of user experience. The available functionality and user experience is shown in the table below.
 
 | Goals/actions  | As a guest | As a logged user  | Result | Comment |
 |--|:--:|:--:|:--:|--|
@@ -244,19 +251,30 @@ Testing has been carried out on the following browsers:
 - Firefox
 - Microsoft Edge
 
-# Code Validation
+# Code Validation and unfixed bugs
 The W3C Markup Validator, W3C CSS Validator Services were used to validate codes in the project.
 
-### W3 HTML Validatio 
+### W3 HTML Validation
+- One warning remains, everything else is fixed.
 
 ### W3 CSS Validation
+- There are some error realated to bootstrap theme that I have used, but they don't affect the site.
 
 ### CL python validation
+- All is clear in my files.
+- I settings there are five erros remains because the line is too long. I couldn´t do it any other way.
 
+### Fixed bugs
+
+* There was an error when users filled in the phone number to make a reservation, it has been fixed
+
+* I needed to change the secret key and url for claoudinary and database because they were visible in Github.
+
+* My files in gitpod was not properly organized so it was not possible to deploy from the beginning, which also caused the css to not work. It was fixed
 
 ### Lighthouse Testing
 
-![alt text]()
+![alt text](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2009.25.48.png)
 
 
 
