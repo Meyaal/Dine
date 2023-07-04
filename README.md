@@ -244,7 +244,19 @@ Testing has been carried out on the following browsers:
 - Firefox
 - Microsoft Edge
 
+# Code Validation
+The W3C Markup Validator, W3C CSS Validator Services were used to validate codes in the project.
 
+### W3 HTML Validatio 
+
+### W3 CSS Validation
+
+### CL python validation
+
+
+### Lighthouse Testing
+
+![alt text]()
 
 
 

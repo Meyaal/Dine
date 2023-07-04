@@ -1,3 +1,7 @@
+from django import forms
+from .models import Booking
+
+
 class Dateform(forms.DateInput):
     """This class provides a widget that allows the user to click on it.
     It enhances the user experience when selecting the date for booking.
