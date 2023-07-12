@@ -42,12 +42,15 @@ class Booking(models.Model):
         unique_together = ('date', 'time', 'guests')
     user = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name='user_booking')
-    namn = models.CharField(max_length=64)
+    name = models.CharField(max_length=64)
     email = models.EmailField()
-    phone = models.CharField(max_length=24, blank=True, null=True)
+    phone = models.CharField(
+        max_length=12,
+        blank=True, null=True
+    )
     guests = models.CharField(max_length=2, choices=GEUST, default='2')
     time = models.CharField(max_length=30, choices=TIMES, default='10:00')
     date = models.DateField()
 
     def __str__(self):
-        return self.namn
+        return self.name

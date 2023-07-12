@@ -1,5 +1,7 @@
 from django import forms
 from .models import Booking
+from django.utils import timezone
+from django.core.exceptions import ValidationError
 
 
 class Dateform(forms.DateInput):
@@ -10,8 +12,8 @@ class Dateform(forms.DateInput):
 
 
 class Bookingform(forms.ModelForm):
-    namn = forms.CharField(
-        widget=forms.TextInput(attrs={"placeholder": "namn"}),
+    name = forms.CharField(
+        widget=forms.TextInput(attrs={"placeholder": "name"}),
         help_text="*",
         )
     email = forms.EmailField(
@@ -24,6 +26,12 @@ class Bookingform(forms.ModelForm):
         widget=forms.TextInput(attrs={"placeholder": "+46701234567"}),
         help_text="This field is optional.",
         )
+    
+    def clean_date(self):
+        date = self.cleaned_data.get('date')
+        if date and date < timezone.localdate():
+            raise ValidationError('You can not make a bookin for passed date!')
+        return date
 
     class Meta:
         model = Booking
