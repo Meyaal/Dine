@@ -29,10 +29,12 @@ def booking_page(request):
         if form.is_valid():
             booking_form = form.save(commit=False)
             booking_form.user = request.user
+            booking_form.guests = int(booking_form.guests)
             booking_form.save()
             messages.success(request, "booking confirmed")
             return redirect('mybookings_page')
         else:
+            print(form.errors)
             messages.error(
                 request, "information missed or invalid or dubble booking")
     form = Bookingform()
@@ -50,7 +52,7 @@ def mybookings_page(request):
         context = {"bookings": bookings}
         return render(request, "mybookings.html", context)
     else:
-        return render("../accounts/login")
+        render(request, "../accounts/login.html")
 
 
 def edit_booking(request, booking_id):
