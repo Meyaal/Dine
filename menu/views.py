@@ -44,14 +44,14 @@ def booking_page(request):
 def mybookings_page(request):
     """The view that renders the mybookings.html which shows all
     current booking by the user. Checks if user is logged in
-    otherwise it redirects to the signup page.
+    otherwise it redirects to the login page.
     """
     if request.user.is_authenticated:
         bookings = Booking.objects.filter(user=request.user)
         context = {"bookings": bookings}
         return render(request, "mybookings.html", context)
     else:
-        render(request, "../accounts/login.html")
+        return redirect("../accounts/login")
 
 
 def edit_booking(request, booking_id):

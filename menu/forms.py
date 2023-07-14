@@ -18,7 +18,7 @@ class Bookingform(forms.ModelForm):
         )
     email = forms.EmailField(
         required=True,
-        widget=forms.TextInput(attrs={"placeholder": "namn@exempel.com"}),
+        widget=forms.TextInput(attrs={"placeholder": "name@exemple.com"}),
         help_text="*",
         )
     phone = forms.CharField(
