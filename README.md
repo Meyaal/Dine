@@ -2,13 +2,14 @@
 
 Welcome to Menumaster
 
-![alt text](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2015.06.48.png)
-
-
 ##### This is the fourth project under the Code Institute Diploma in Software Development (E-commerce Applications) program. This website is a fictional webbsite called Menumaster. It is designed to be responsive and accessible on a variety of devices for the ease of use of the site by potential costumers.
 
 
 ##### The website, Menumaster, is designed for a restaurant located in Stockholm City. It caters to customers who are seeking a delightful dining experience and a place to relax in Stockholm City. The restaurant offers a delectable menu with a touch of magic in its atmosphere. The website provides account registration and booking functionality, allowing customers to conveniently manage their reservations directly through the website.
+
+![alt text](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2015.06.48.png)
+
+
 
 ## Wireframe for deskop
 
@@ -37,7 +38,7 @@ Welcome to Menumaster
 
 ## Database Schema
 - The database design schema can be viewed below. It consists of a Booking model with a foreignKey of User that relates to the Django standard User model class.
-![](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2006.35.38.png)
+![](docs/scheme.png)
 
 ### UX (User Experience)
 
@@ -274,7 +275,7 @@ The W3C Markup Validator, W3C CSS Validator Services were used to validate codes
 
 ### Lighthouse Testing
 
-![alt text](docs/Ska%CC%88rmavbild%202023-06-11%20kl.%2009.25.48.png)
+![alt text](docs/lighthouse.png)
 
 
 
@@ -324,9 +325,9 @@ was used to provide examples of Bootstrap functionality and building blocks.
 
 [Code Institute walkthrough](https://codeinstitute.net/se/) as inspiration and code examples, the code institute walkthroughs "Hello Django" and "I Think Therefore I Blog" was used.
 
-[MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website) This toturial was helpful to understand the concept af django as a framework.
+[MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website) This toturial was helpful to understand the concept of django as a framework.
 
-[Github](https://github.com/ErikHgm/Menumaster-Restaurant-Project) I found similar project in github which i have used some codes and inspiration to build my own.
+[Github](https://github.com) I found similar project in github which i have used some codes and inspiration to build my own.
 
 Content
 
