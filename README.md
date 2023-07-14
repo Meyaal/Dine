@@ -9,6 +9,8 @@ Welcome to Menumaster
 
 ![alt text](docs/Ska%CC%88rmavbild%202023-07-04%20kl.%2015.06.48.png)
 
+[Live link to the site, click here](https://menumaster23.herokuapp.com/)
+
 
 
 ## Wireframe for deskop
@@ -252,6 +254,20 @@ Testing has been carried out on the following browsers:
 - Firefox
 - Microsoft Edge
 
+## Different divices
+
+### I have tested with small screen, medium and large screen.
+
+- Ipad 
+- Iphone
+- Android 
+
+For Ipads and Iphones the bahaviour is same and works as expected.
+
+## Note
+
+### Threse is only one button to make a booking in small screens. 
+
 # Code Validation and unfixed bugs
 The W3C Markup Validator, W3C CSS Validator Services were used to validate codes in the project.
 
@@ -311,6 +327,7 @@ To use this code and make changes without affecting the original code, it is pos
 4. Open the terminal in you IDE program.
 5. Type git clone and paste the URL that was copied in step 3.
 6. Press Enter and the local clone will be created.
+7. Make a copy of template.env to .env and then fill out the information.
 
 ## Credits
 
@@ -327,12 +344,12 @@ was used to provide examples of Bootstrap functionality and building blocks.
 
 [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website) This toturial was helpful to understand the concept of django as a framework.
 
-[Github](https://github.com) I found similar project in github which i have used some codes and inspiration to build my own.
+[Firehouse](https://github.com/ErikHgm/FireHouse-Restaurant-Project) I have used some of the html and css fron this project to create my own.
 
 Content
 
 * The texts that are used for testimonials comes from [Tripadvisor](https://www.tripadvisor.se/)
-* The texts that are used for the about section comes from [Github](https://github.com/ErikHgm/FireHouse-Restaurant-Project).
+* The texts that are used for the about section comes from [Royal35](https://royal35steakhouse.com/).
 
 Media
 
