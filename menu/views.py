@@ -34,7 +34,6 @@ def booking_page(request):
             messages.success(request, "booking confirmed")
             return redirect('mybookings_page')
         else:
-            print(form.errors)
             messages.error(
                 request, "information missed or invalid or dubble booking")
     form = Bookingform()
